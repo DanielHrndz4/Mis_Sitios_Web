@@ -1,0 +1,1891 @@
+@charset "utf-8";
+/* CSS Document */
+@media (max-width:275px){
+	html{
+    width: 100%;
+    height: 100%;
+	}
+	nav{
+	background-color: #1B1B1B;
+		height: 40px;
+}
+	#linkContactame:hover{
+	color: #A8A8A8;
+}
+#created{
+	font-family: 'Noto Sans Mono', monospace;
+	color: #A8A8A8;
+	cursor:auto;
+    font-size: 0.8em;
+	text-align: center;
+	margin: auto;
+}
+#navbarNav{
+	float:right;
+	padding-right: 0px;
+}
+#linkContactame{
+	color: white;
+	font-family: 'Noto Sans Mono', monospace;
+	font-size: 0.8em;
+	visibility: hidden;
+}
+	#container{
+    background-image: url( "../img/mediaQueries/pexels-hitarth-jadhav-220357.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 200px;
+	padding-top: 0;
+    background-position:center;
+	width: 100%;
+	padding-top: 0px;
+		
+    }
+	.titulo1{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+    color: crimson;
+	padding: 0;
+	margin-top:0; 
+}
+.titulo2{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px gray;
+	color: crimson;
+}
+.fila0{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+}
+.fila0>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:5px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 9px;
+	overflow: auto;
+}
+.fila1{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 145px;
+}
+.fila1>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:4px;
+	padding-bottom: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 9px;
+	overflow: auto;
+}
+.fila11{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 140px;
+	
+}
+.fila11>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 9px;
+	overflow: auto;
+}
+.fila12{
+    width: 30%;
+    display: block;
+    margin: 20px 2.7% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 150px;
+    
+}
+.fila12>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 9px;
+	overflow: auto;
+}
+.fila13{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+    visibility: Hidden;
+	height: 140px;
+}
+.fila13>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+    visibility: hidden;
+	font-size: 9px;
+	overflow: auto;
+}
+.Dfila1, .Dfila2, .Dfila3, .Dfila4, .Dfila5, .Dfila6, .Dfila7, .Dfila8, .Dfila9, .Dfila10, .Dfila11, .Dfila12, .Dfila13, .Dfila14, .Dfila15, .Dfila16, .Dfila17, .Dfila18, .Dfila19, .Dfila20, .Dfila21, .Dfila22, .Dfila23, .Dfila24, .Dfila25, .Dfila26, .Dfila27, .Dfila28, .Dfila29, .Dfila30, .Dfila31, .Dfila32, .Dfila33{
+    margin-bottom: 0;
+    width: 98%;
+    padding: 0;
+    display: block;
+    margin: 1%;
+    text-align: center;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:110px;
+    border-radius:10px;
+    border-bottom: 4px solid crimson;
+    color:black;
+}
+	.Dfila1{
+    background-image: url("../img/mediaQueries/yt.jpg");
+}
+.Dfila2{
+    Background-image: url(../img/Sin\ título-1.png);
+}
+.Dfila3{
+    background-image: url( "../img/mediaQueries/class.png");
+}
+.Dfila4{
+    background-image: url( "../img/mediaQueries/gmail.jpg");
+}
+.Dfila5{
+    background-image: url("../img/mediaQueries/u.png");
+}
+.Dfila6{
+    background-image: url( "../img/mediaQueries/gh.png");
+}
+.Dfila7{
+    background-image: url( "../img/mediaQueries/j.png");
+}
+.Dfila8{
+    background-image: url( "../img/mediaQueries/j.png");
+}
+.Dfila9{
+    background-image: url("../img/mediaQueries/j.png");
+}
+.Dfila10{
+    background-image: url(../img/C.jpg);
+}
+.Dfila11{
+    background-image: url(../img/C.jpg);
+}
+.Dfila12{
+    background-image: url(../img/C.jpg);
+}
+.Dfila13{
+    background-image: url( "../img/mediaQueries/python.png");
+}
+.Dfila14{
+    background-image: url("../img/mediaQueries/python.png");
+}
+.Dfila15{
+    background-image: url("../img/mediaQueries/python.png");
+}
+.Dfila16{
+    background-image: url( "../img/mediaQueries/fa.png");
+}
+.Dfila17{
+    background-image: url( "../img/mediaQueries/bi.png");
+}
+.Dfila18{
+    background-image: url( "../img/mediaQueries/ii.png");
+}
+.Dfila19{
+    background-image: url( "../img/mediaQueries/bt.png");
+}
+.Dfila20{
+    background-image: url( "../img/mediaQueries/gof.png");
+}
+.Dfila21{
+    background-image: url( "../img/mediaQueries/up.jpeg");
+}
+.Dfila22{
+    background-image: url( "../img/mediaQueries/px.png");
+}
+.Dfila24{
+    background-image: url( "../img/mediaQueries/fui.jpg");
+}
+.Dfila25{
+    background-image: url( "../img/mediaQueries/coo.png");
+}
+.Dfila27{
+    background-image: url(../img/bootstrap.png)
+}
+.Dfila28{
+    background-image: url(../img/tutorial.jpg)
+}
+.Dfila29{
+    background-image: url( "../img/mediaQueries/wp.png")
+}
+.Dfila30{
+    background-image: url( "../img/mediaQueries/000w.png")
+}
+.Dfila31{		
+    background-image: url( "../img/mediaQueries/foxit.png")
+}
+.Dfila32{
+    background-image: url( "../img/iconos-pagina-web.png")
+}
+.Dfila33{
+    background-image: url( "../img/mediaQueries/ss.png")
+}
+		
+.tituloEdu{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloC{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloIconos{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloPy{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloFonts{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloSkill{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloImg{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloCol{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+
+.footer {
+    min-height: 100%;
+    background-image: url("../img/footer.png");
+    width: 100%;
+	margin: auto;
+}
+.carta {
+    height: 700px;
+    background-image: url("../img/footer.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+}
+.card{
+	width: 90%;
+	position: center;
+	height: 600px;
+	margin: auto;
+}
+.foto{
+	width: 96%;
+	margin: auto;
+	height: 50%;
+	box-shadow: 2px 2px 2px 2px gray;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	background-image: url("../img/avatar.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.certificados{
+	font-family: 'Noto Sans Mono', monospace;
+}
+.certificados>h1{
+	text-shadow: 2px 2px 2px gray;
+	text-align: center;
+	font-size: 1.4em;
+	border-bottom: 2px solid crimson;
+	width: 70%;
+	margin: auto;
+	border-radius: 10px;
+}
+.certificados>p{
+	padding-left: 10px;
+}
+	strong{
+		font-size: 0.8em;
+	}
+span{
+	color: crimson;
+	font-weight: bolder;
+}
+.autor{
+	margin-top: 15px; 
+	font-size: 0.5em;
+	text-align: center;
+	color: crimson;	
+}
+.redesSociales{
+	display: inline-block;	
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 0.5em;
+}
+.instagram, .facebook, .gh, .twitter {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 0px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px gray;
+}
+.sigueme{
+	font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: black;
+	text-shadow: 2px 2px 2px gray;
+	border-bottom: 3px solid crimson;
+	width: 70%;
+	margin: auto;
+	border-radius: 10px
+    }
+
+}
+@media screen and (max-width:480px) and (min-width: 276px){
+	html{
+    width: 100%;
+    height: 100%;
+	}
+	#linkContactame:hover{
+	color: #A8A8A8;
+}
+	nav{
+	background-color: #1B1B1B;
+		height: 45px;
+}
+#created{
+	font-family: 'Noto Sans Mono', monospace;
+	color: #A8A8A8;
+	cursor:auto;
+    font-size: 1em;
+	text-align: center;
+	margin: auto;
+	padding: 0;
+}
+#navbarNav{
+	float:right;
+	padding-right: 0px;
+}
+#linkContactame{
+	color: white;
+	font-family: 'Noto Sans Mono', monospace;
+	font-size: 0.8em;
+	visibility: hidden;
+}
+	#container{
+    background-image: url( "../img/mediaQueries/pexels-hitarth-jadhav-220357.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 250px;
+	padding-top: 0;
+    background-position:center;
+	width: 100%;
+    }
+	.titulo1{
+		padding-top: 30px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 2em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+    color: crimson;
+}
+.titulo2{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px gray;
+	color: crimson;
+}
+.fila0{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+}
+.fila0>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:5px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 9px;
+	overflow: auto;
+}
+.fila1{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 145px;
+}
+.fila1>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:4px;
+	padding-bottom: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 10px;
+	overflow: auto;
+}
+.fila11{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 140px;
+	
+}
+.fila11>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 9px;
+	overflow: auto;
+}
+.fila12{
+    width: 30%;
+    display: block;
+    margin: 20px 2.7% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 140px;
+    
+}
+.fila12>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 9px;
+	overflow: auto;
+}
+.fila13{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+    visibility: Hidden;
+	height: 140px;
+}
+.fila13>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+    visibility: hidden;
+	font-size: 9px;
+	overflow: auto;
+}
+.Dfila1, .Dfila2, .Dfila3, .Dfila4, .Dfila5, .Dfila6, .Dfila7, .Dfila8, .Dfila9, .Dfila10, .Dfila11, .Dfila12, .Dfila13, .Dfila14, .Dfila15, .Dfila16, .Dfila17, .Dfila18, .Dfila19, .Dfila20, .Dfila21, .Dfila22, .Dfila23, .Dfila24, .Dfila25, .Dfila26, .Dfila27, .Dfila28, .Dfila29, .Dfila30, .Dfila31, .Dfila32, .Dfila33{
+    margin-bottom: 0;
+    width: 98%;
+    padding: 0;
+    display: block;
+    margin: 1%;
+    text-align: center;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:110px;
+    border-radius:10px;
+    border-bottom: 4px solid crimson;
+    color:black;
+}
+	.Dfila1{
+    background-image: url("../img/mediaQueries/yt.jpg");
+}
+.Dfila2{
+    Background-image: url(../img/Sin\ título-1.png);
+}
+.Dfila3{
+    background-image: url( "../img/mediaQueries/class.png");
+}
+.Dfila4{
+    background-image: url( "../img/mediaQueries/gmail.jpg");
+}
+.Dfila5{
+    background-image: url("../img/mediaQueries/u.png");
+}
+.Dfila6{
+    background-image: url( "../img/mediaQueries/gh.png");
+}
+.Dfila7{
+    background-image: url( "../img/mediaQueries/j.png");
+}
+.Dfila8{
+    background-image: url( "../img/mediaQueries/j.png");
+}
+.Dfila9{
+    background-image: url("../img/mediaQueries/j.png");
+}
+.Dfila10{
+    background-image: url(../img/C.jpg);
+}
+.Dfila11{
+    background-image: url(../img/C.jpg);
+}
+.Dfila12{
+    background-image: url(../img/C.jpg);
+}
+.Dfila13{
+    background-image: url( "../img/mediaQueries/python.png");
+}
+.Dfila14{
+    background-image: url("../img/mediaQueries/python.png");
+}
+.Dfila15{
+    background-image: url("../img/mediaQueries/python.png");
+}
+.Dfila16{
+    background-image: url( "../img/mediaQueries/fa.png");
+}
+.Dfila17{
+    background-image: url( "../img/mediaQueries/bi.png");
+}
+.Dfila18{
+    background-image: url( "../img/mediaQueries/ii.png");
+}
+.Dfila19{
+    background-image: url( "../img/mediaQueries/bt.png");
+}
+.Dfila20{
+    background-image: url( "../img/mediaQueries/gof.png");
+}
+.Dfila21{
+    background-image: url( "../img/mediaQueries/up.jpeg");
+}
+.Dfila22{
+    background-image: url( "../img/mediaQueries/px.png");
+}
+.Dfila24{
+    background-image: url( "../img/mediaQueries/fui.jpg");
+}
+.Dfila25{
+    background-image: url( "../img/mediaQueries/coo.png");
+}
+.Dfila27{
+    background-image: url(../img/bootstrap.png)
+}
+.Dfila28{
+    background-image: url(../img/tutorial.jpg)
+}
+.Dfila29{
+    background-image: url( "../img/mediaQueries/wp.png")
+}
+.Dfila30{
+    background-image: url( "../img/mediaQueries/000w.png")
+}
+.Dfila31{		
+    background-image: url( "../img/mediaQueries/foxit.png")
+}
+.Dfila32{
+    background-image: url( "../img/iconos-pagina-web.png")
+}
+.Dfila33{
+    background-image: url( "../img/mediaQueries/ss.png")
+}
+	
+.tituloEdu{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloC{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloIconos{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloPy{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloFonts{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloImg{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloSkill{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+.tituloCol{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 1em;
+}
+
+.footer {
+    min-height: 100%;
+    background-image: url("../img/footer.png");
+    width: 100%;
+	margin: auto;
+}
+.carta {
+    height: 700px;
+    background-image: url("../img/footer.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+}
+.card{
+	width: 80%;
+	position: center;
+	height: 600px;
+	margin: auto;
+}
+.foto{
+	width: 96%;
+	margin: auto;
+	height: 50%;
+	box-shadow: 2px 2px 2px 2px gray;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	background-image: url("../img/avatar.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.certificados{
+	font-family: 'Noto Sans Mono', monospace;
+}
+.certificados>h1{
+	text-shadow: 2px 2px 2px gray;
+	text-align: center;
+	font-size: 1.4em;
+	border-bottom: 2px solid crimson;
+	width: 70%;
+	margin: auto;
+	border-radius: 10px;
+}
+.certificados>p{
+	padding-left: 10px;
+}
+	strong{
+		font-size: 0.8em;
+	}
+span{
+	color: crimson;
+	font-weight: bolder;
+}
+.autor{
+	margin-top: 15px; 
+	font-size: 0.5em;
+	text-align: center;
+	color: crimson;	
+}
+.redesSociales{
+	display: inline-block;	
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 0.5em;
+}
+.instagram, .facebook, .gh, .twitter {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 0px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px gray;
+}
+.sigueme{
+	font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 1.5em;
+	padding-top: 10px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: black;
+	text-shadow: 2px 2px 2px gray;
+	border-bottom: 3px solid crimson;
+	width: 70%;
+	margin: auto;
+	border-radius: 10px
+    }
+
+}
+@media screen and (max-width:760px) and (min-width: 481px){
+	html{
+    width: 100%;
+    height: 100%;
+	}
+	nav{
+	background-color: #1B1B1B;
+		height: 50px;
+}
+#created{
+	font-family: 'Noto Sans Mono', monospace;
+	color: #A8A8A8;
+	cursor:auto;
+    font-size: 1em;
+	text-align: center;
+	margin-left: 10px;
+}
+	#linkContactame:hover{
+	color: #A8A8A8;
+}
+#navbarNav{
+	float:right;
+	padding-right: 15px;
+}
+#linkContactame{
+	color: white;
+	font-family: 'Noto Sans Mono', monospace;
+	font-size: 1em;
+	padding-left: 0px;
+}
+	#container{
+    background-image: url( "../img/mediaQueries/pexels-hitarth-jadhav-220357.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 400px;
+	padding-top: 0;
+    background-position:center;
+	width: 100%;
+    }
+	.titulo1{
+		padding-top:70px; 
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 3em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+    color: crimson;
+}
+.titulo2{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 2.5em;
+    text-shadow: 2px 2px 2px gray;
+	color: crimson;
+}
+.fila0{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+}
+.fila0>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:5px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 2em;
+	overflow: auto;
+}
+.fila1{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 150px;
+}
+.fila1>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:4px;
+	padding-bottom: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 0.7em;
+	overflow: auto;
+}
+.fila11{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 145px;
+	
+}
+.fila11>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 1em;
+	overflow: hidden;
+}
+.fila12{
+    width: 30%;
+    display: block;
+    margin: 20px 2.7% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 160px;
+    
+}
+.fila12>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 0.9em;
+	overflow: auto;
+}
+.fila13{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+    visibility: Hidden;
+	height: 150px;
+}
+.fila13>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+    visibility: hidden;
+	font-size: 1em;
+	overflow: auto;
+}
+.Dfila1, .Dfila2, .Dfila3, .Dfila4, .Dfila5, .Dfila6, .Dfila7, .Dfila8, .Dfila9, .Dfila10, .Dfila11, .Dfila12, .Dfila13, .Dfila14, .Dfila15, .Dfila16, .Dfila17, .Dfila18, .Dfila19, .Dfila20, .Dfila21, .Dfila22, .Dfila23, .Dfila24, .Dfila25, .Dfila26, .Dfila27, .Dfila28, .Dfila29, .Dfila30, .Dfila31, .Dfila32, .Dfila33{
+    margin-bottom: 0;
+    width: 98%;
+    padding: 0;
+    display: block;
+    margin: 1%;
+    text-align: center;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:110px;
+    border-radius:10px;
+    border-bottom: 4px solid crimson;
+    color:black;
+}
+	
+.tituloEdu{
+    border-bottom: 5px solid crimson;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2em;
+}
+.tituloC{
+    border-bottom: 5px solid crimson;
+    width: 350px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2em;
+}
+.tituloIconos{
+    border-bottom: 5px solid crimson;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2em;
+}
+.tituloPy{
+    border-bottom: 5px solid crimson;
+    width: 250px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2em;
+}
+.tituloFonts{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2em;
+}
+.tituloSkill{
+    border-bottom: 5px solid crimson;
+    width: 300px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2em;
+}
+.tituloImg{
+    border-bottom: 5px solid crimson;
+    width: 170px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2em;
+}
+.tituloCol{
+    border-bottom: 5px solid crimson;
+    width: 150px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2em;
+}
+
+.footer {
+    min-height: 100%;
+    background-image: url("../img/footer.png");
+    width: 100%;
+	margin: auto;
+}
+.carta {
+    height: 700px;
+    background-image: url("../img/footer.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+}
+.card{
+	width: 65%;
+	position: center;
+	height: 600px;
+	margin: auto;
+}
+.foto{
+	width: 96%;
+	margin: auto;
+	height: 50%;
+	box-shadow: 2px 2px 2px 2px gray;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	background-image: url("../img/avatar.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.certificados{
+	font-family: 'Noto Sans Mono', monospace;
+}
+.certificados>h1{
+	text-shadow: 2px 2px 2px gray;
+	text-align: center;
+	font-size: 2em;
+	border-bottom: 2px solid crimson;
+	width: 74%;
+	margin: auto;
+	border-radius: 10px;
+}
+.certificados>p{
+	padding-left: 10px;
+}
+	strong{
+		font-size: 1em;
+	}
+span{
+	color: crimson;
+	font-weight: bolder;
+}
+.autor{
+	margin-top: 20px; 
+	font-size: 0.8em;
+	text-align: center;
+	color: crimson;	
+}
+.redesSociales{
+	display: inline-block;	
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 1.3em;
+}
+.instagram, .facebook, .gh, .twitter {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 0px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px gray;
+}
+.sigueme{
+	font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 2em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	color: black;
+	text-shadow: 2px 2px 2px gray;
+	border-bottom: 3px solid crimson;
+	width: 50%;
+	margin: auto;
+	border-radius: 10px
+    }
+
+}
+@media screen and (max-width:999px) and (min-width: 761px){
+	html{
+    width: 100%;
+    height: 100%;
+	}
+	#linkContactame:hover{
+	color: #A8A8A8;
+}
+	#container{
+    background-image: url( "../img/mediaQueries/pexels-hitarth-jadhav-220357.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+	padding-top: 0;
+    background-position:center;
+	width: 100%;
+    }
+	.titulo1{
+		padding-top:90px; 
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 4em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+    color: crimson;
+}
+.titulo2{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 2px gray;
+	color: crimson;
+}
+.fila0{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+}
+.fila0>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:5px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 2em;
+	overflow: auto;
+}
+.fila1{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 180px;
+}
+.fila1>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:10px;
+	padding-bottom: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 1em;
+	overflow: auto;
+}
+.fila11{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 180px;
+	
+}
+.fila11>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 1em;
+	overflow: auto;
+}
+.fila12{
+    width: 30%;
+    display: block;
+    margin: 20px 2.7% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 180px;
+    
+}
+.fila12>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 1em;
+	overflow: auto;
+}
+.fila13{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+    visibility: Hidden;
+	height: 180px;
+}
+.fila13>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+    visibility: hidden;
+	font-size: 1em;
+	overflow: auto;
+}
+.Dfila1, .Dfila2, .Dfila3, .Dfila4, .Dfila5, .Dfila6, .Dfila7, .Dfila8, .Dfila9, .Dfila10, .Dfila11, .Dfila12, .Dfila13, .Dfila14, .Dfila15, .Dfila16, .Dfila17, .Dfila18, .Dfila19, .Dfila20, .Dfila21, .Dfila22, .Dfila23, .Dfila24, .Dfila25, .Dfila26, .Dfila27, .Dfila28, .Dfila29, .Dfila30, .Dfila31, .Dfila32, .Dfila33{
+    margin-bottom: 0;
+    width: 98%;
+    padding: 0;
+    display: block;
+    margin: 1%;
+    text-align: center;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:130px;
+    border-radius:10px;
+    border-bottom: 4px solid crimson;
+    color:black;
+}
+	
+.tituloEdu{
+    border-bottom: 5px solid crimson;
+    width: 360px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloC{
+    border-bottom: 5px solid crimson;
+    width: 470px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloIconos{
+    border-bottom: 5px solid crimson;
+    width: 250px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloPy{
+    border-bottom: 5px solid crimson;
+    width: 320px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloFonts{
+    border-bottom: 5px solid crimson;
+    width: 180px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloImg{
+    border-bottom: 5px solid crimson;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloCol{
+    border-bottom: 5px solid crimson;
+    width: 170px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+
+.footer {
+    min-height: 100%;
+    background-image: url("../img/footer.png");
+    width: 100%;
+	margin: auto;
+}
+.carta {
+    height: 800px;
+    background-image: url("../img/footer.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+}
+.card{
+	width: 60%;
+	position: center;
+	height: 700px;
+	margin: auto;
+}
+.foto{
+	width: 96%;
+	margin: auto;
+	height: 50%;
+	box-shadow: 2px 2px 2px 2px gray;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	background-image: url("../img/avatar.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.certificados{
+	font-family: 'Noto Sans Mono', monospace;
+}
+.certificados>h1{
+	text-shadow: 2px 2px 2px gray;
+	text-align: center;
+	font-size: 2.5em;
+	border-bottom: 2px solid crimson;
+	width: 65%;
+	margin: auto;
+	border-radius: 10px;
+}
+.certificados>p{
+	padding-left: 10px;
+}
+	strong{
+		font-size: 1.3em;
+	}
+span{
+	color: crimson;
+	font-weight: bolder;
+}
+.autor{
+	margin-top: 30px; 
+	font-size: 1em;
+	text-align: center;
+	color: crimson;	
+}
+.redesSociales{
+	display: inline-block;	
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 1.5em;
+}
+.instagram, .facebook, .gh, .twitter {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 0px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px gray;
+}
+.sigueme{
+	font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 2.4em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	color: black;
+	text-shadow: 2px 2px 2px gray;
+	border-bottom: 3px solid crimson;
+	width: 35%;
+	margin: auto;
+	border-radius: 10px
+    }
+
+}
+@media screen and (max-width:1200px) and (min-width:1000px){
+html{
+    width: 100%;
+    height: 100%;
+	}
+	#linkContactame:hover{
+	color: #A8A8A8;
+}
+	#container{
+    background-image: url( "../img/mediaQueries/pexels-hitarth-jadhav-220357.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    height: 500px;
+	padding-top: 0;
+    background-position:center;
+	width: 100%;
+    }
+	.titulo1{
+		padding-top:100px; 
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 4em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+    color: crimson;
+}
+.titulo2{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 3.5em;
+    text-shadow: 2px 2px 2px gray;
+	color: crimson;
+}
+.fila0{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+}
+.fila0>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:5px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 2em;
+	overflow: auto;
+}
+.fila1{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 200px;
+}
+.fila1>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:10px;
+	padding-bottom: 0;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 1em;
+	overflow: auto;
+}
+.fila11{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 200px;
+	
+}
+.fila11>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 1em;
+	overflow: auto;
+}
+.fila12{
+    width: 30%;
+    display: block;
+    margin: 20px 2.7% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+	height: 200px;
+    
+}
+.fila12>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 1em;
+	overflow: auto;
+}
+.fila13{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+    visibility: Hidden;
+	height: 200px;
+}
+.fila13>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 8px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+    visibility: hidden;
+	font-size: 1em;
+	overflow: auto;
+}
+.Dfila1, .Dfila2, .Dfila3, .Dfila4, .Dfila5, .Dfila6, .Dfila7, .Dfila8, .Dfila9, .Dfila10, .Dfila11, .Dfila12, .Dfila13, .Dfila14, .Dfila15, .Dfila16, .Dfila17, .Dfila18, .Dfila19, .Dfila20, .Dfila21, .Dfila22, .Dfila23, .Dfila24, .Dfila25, .Dfila26, .Dfila27, .Dfila28, .Dfila29, .Dfila30, .Dfila31, .Dfila32, .Dfila33{
+    margin-bottom: 0;
+    width: 98%;
+    padding: 0;
+    display: block;
+    margin: 1%;
+    text-align: center;
+	background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:150px;
+    border-radius:10px;
+    border-bottom: 4px solid crimson;
+    color:black;
+}
+	
+.tituloEdu{
+    border-bottom: 5px solid crimson;
+    width: 360px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloC{
+    border-bottom: 5px solid crimson;
+    width: 470px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloIconos{
+    border-bottom: 5px solid crimson;
+    width: 250px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloPy{
+    border-bottom: 5px solid crimson;
+    width: 320px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloFonts{
+    border-bottom: 5px solid crimson;
+    width: 180px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloImg{
+    border-bottom: 5px solid crimson;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+.tituloCol{
+    border-bottom: 5px solid crimson;
+    width: 170px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+	font-size: 2.5em;
+}
+
+.footer {
+    min-height: 100%;
+    background-image: url("../img/footer.png");
+    width: 100%;
+	margin: auto;
+}
+.carta {
+    height: 800px;
+    background-image: url("../img/footer.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+	width: 100%;
+}
+.card{
+	width: 45%;
+	position: center;
+	height: 700px;
+	margin: auto;
+}
+.foto{
+	width: 96%;
+	margin: auto;
+	height: 50%;
+	box-shadow: 2px 2px 2px 2px gray;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	background-image: url("../img/avatar.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.certificados{
+	font-family: 'Noto Sans Mono', monospace;
+}
+.certificados>h1{
+	text-shadow: 2px 2px 2px gray;
+	text-align: center;
+	font-size: 2.5em;
+	border-bottom: 2px solid crimson;
+	width: 65%;
+	margin: auto;
+	border-radius: 10px;
+}
+.certificados>p{
+	padding-left: 10px;
+}
+	strong{
+		font-size: 1.3em;
+	}
+span{
+	color: crimson;
+	font-weight: bolder;
+}
+.autor{
+	margin-top: 30px; 
+	font-size: 1em;
+	text-align: center;
+	color: crimson;	
+}
+.redesSociales{
+	display: inline-block;	
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+	font-size: 1.5em;
+}
+.instagram, .facebook, .gh, .twitter {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 0px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px gray;
+}
+.sigueme{
+	font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 2.4em;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 0;
+	color: black;
+	text-shadow: 2px 2px 2px gray;
+	border-bottom: 3px solid crimson;
+	width: 25%;
+	margin: auto;
+	border-radius: 10px
+    }
+}

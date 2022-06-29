@@ -1,0 +1,390 @@
+@charset "utf-8";
+/* CSS Document */
+#img1{
+	border-radius: 10px;
+	margin: 0px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#fin{
+	margin: auto;
+}
+.ins{
+	font-size: 2em;
+	color: white;
+	text-align: center;
+	padding-top: 25px;
+}
+
+.insCurso{
+	font-size: 1.5em;
+	color: white;
+	text-align: justify;
+	padding-top: 25px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+#insBoton{
+	margin-left: 40%;
+	margin-right: 40%;
+}
+
+a#insBoton:link, a#insBoton:visited{
+	background-color: #34495e;
+	color: white;
+	font-weight: bold;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 10px;
+}
+
+a#insBoton:hover, a#insBoton:active{
+	background-color: crimson;
+}
+	
+#menu{
+	color: #28a745;
+}
+
+.contenedor{
+	background-image: url("../images/markus-spiske-GXBF7vaC6L8-unsplash.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+}
+
+.saludo{
+	display: flex;
+	width: 400px;
+	height: 60px;
+	color: black;
+	font-size: 60px;
+	line-height: 60px;
+	padding: 0;
+	
+	position: absolute;
+	margin: auto;
+	overflow: hidden;
+}
+
+#animacion{
+	list-style: none;
+	text-align: center;
+	animation: cambiar 7s infinite;
+	margin: auto;
+	font-family: 'Crete Round', serif;
+}
+
+@keyframes cambiar{
+	0%{margin-top: 0;}
+	20%{margin-top: 0;}
+	
+	25%{margin-top: -60px;}
+	50%{margin-top: -60px;}
+	
+	55%{margin-top: -120px;}
+	80%{margin-top: -120px;}
+	
+	85%{margin-top: -60px;}
+	95%{margin-top: -60px;}
+	
+	100%{margin-top: 0px;}
+}
+
+.Bootstrap{
+	color: crimson;
+}
+
+#menu{
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.creador{
+	text-align: center;
+	color: white;
+	font-size: 2em;
+	margin: 0px;
+	font-weight: bold;
+	font-family: 'Crete Round', serif;
+}
+
+.lineaCreador{
+	border: 2px solid crimson;
+}
+
+#encabezado{
+	background-image: url( "../images/scroll1.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:cover;
+	color: black;
+	font-weight: bold;
+}
+
+#card1{
+	border-radius: 10px;
+	margin: 2px 0px;
+}
+
+.imgp2{
+	align-items: center;
+	margin-top: 0px;
+	width: 350px;
+	height: 300px;
+	padding-top: 0px;
+}
+
+#cardp{
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+.titulosOb{
+	padding-bottom: 5px;
+}
+
+#footer{
+	padding-top: 10px; 
+	color: white;
+	font-weight: bold;
+	width: 101%;
+	text-align: center;
+}
+
+#tituloparrafo{
+	padding-top: 0px;
+	padding-bottom: 0px;
+	color: white;
+}
+
+#parrafolorem1{
+	padding: 10px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	text-align: justify !important;
+	color: white;
+	font-size: 1em;
+}
+
+.contacto{
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+
+a.redesf:link, a.redesi:link, a.redesg:link{
+	width: 90px !important;
+	padding: 5px;
+	color: crimson;
+	text-decoration: none;
+	margin: 5px;
+	margin-top: 15px;
+	border-radius: 5px;	
+	border-bottom: 3px solid crimson;
+	font-weight: bold;
+}
+
+a.redesf:hover, a.redesi:hover, a.redesg:hover{
+	background-color: #ccc;
+}
+a.redesf:active, a.redesi:active, a.redesg:active{
+	background-color: #ccc;
+}
+
+a.redesf:visited, a.redesi:visited, a.redesg:visited{
+	color: black;
+	border-bottom: 3px solid crimson;
+
+}
+
+a.redesf1:link, a.redesi1:link, a.redesg1:link{
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border-bottom: 3px solid crimson;
+}
+
+a.redesf1:hover, a.redesi1:hover, a.redesg1:hover{
+	background-color: #767676;
+}
+a.redesf1:active, a.redesi1:active, a.redesg1:active{
+	background-color: #767676;
+}
+
+a.redesf1:visited, a.redesi1:visited, a.redesg1:visited{
+	color: white;
+	padding: 5px;
+	text-align: center;
+	text-decoration: none;
+	margin: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	border-bottom: 3px solid crimson;
+}
+#csharp{
+	height: 520px;
+}
+.cursoc1{
+	height: 350px;
+	width: 400px;
+	background-image:url( "../images/ice_screenshot_20210920-124647.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 20px;
+	border-bottom: 5px solid crimson;
+	border-radius: 10px;
+}
+.cursoc2{
+	height: 350px;
+	width: 400px;
+	background-image:url( "../images/ice_screenshot_20210920-130033.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 20px;
+	border-bottom: 5px solid crimson;
+	border-radius: 10px;
+}
+.cursoc3{
+	height: 350px;
+	width: 400px;
+	background-image:url( "../images/ice_screenshot_20210920-124647.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: auto;
+	margin-top: 20px;
+	border-bottom: 5px solid crimson;
+	border-radius: 10px;
+}
+.textocsharp{
+	margin: auto;
+	padding-bottom: 0;
+	color: white;
+	text-align: center;
+	font-family: 'Crete Round', serif;
+}
+.textocsharp h1{
+	margin: auto;
+	padding-bottom: 0;
+	color: white;
+	text-align: center;
+	font-family: 'Crete Round', serif;
+	text-shadow: 2px 2px gray;
+}
+#botoncsharp1,#botoncsharp2, #botoncsharp3{
+	margin-top: 20px;
+}
+#c{
+	font-size: 3em;
+	color: crimson;
+	font-weight: bolder;
+	text-align: center;
+	margin-bottom: 20px;
+			font-family: 'Crete Round', serif;
+}
+
+/*=====================================================================================================================*/
+.formulario{
+	margin-bottom: 5px;
+	border-radius: 10px;
+}
+
+#nombreA, #nombreB, #nombreC, #nombreD, #nombreE{
+	margin-bottom: 20px;
+	text-align: center!important;
+	color: crimson;
+	font-weight: bold;
+	border-radius: 10px
+}
+#nombreD, #nombreE{
+	width: 40px !important;
+}
+
+.cuerpoForm{
+	background-image: url( "../images/markus-spiske-GXBF7vaC6L8-unsplash.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 750px;
+}
+
+#contForm{
+	border-bottom: 7px solid crimson;
+	padding: 20px 5px 30px 0px;
+	border-radius: 10px;
+}
+.inputEnv{
+	padding: 0% 43%;
+}
+#Enviar{
+	border: 3px solid crimson;
+	border-radius: 10px;
+	background-image: url("../images/markus-spiske-GXBF7vaC6L8-unsplash.jpg");
+	color: white;
+	font-weight: bold;
+	padding: 3px 3px;
+}
+.inscribete{
+	text-align: center;
+	font-size: 3em;
+	color: crimson;
+	font-weight: bold;
+}
+
+
+	.inscribete{
+		font-size: 3em;
+		color: crimson ;
+	}
+	#nombreA{
+		padding-left: 2px;
+	}
+	#Nombres{
+		margin-left: 15px;
+		width: 100%;
+	}
+	#nombreB{
+		padding-left: 2px ;
+	}
+	#Apellidos{
+		margin-left: 15px;
+		width: 100%;
+	}
+	#nombreC{
+		padding-left: 2px ;
+		text-align: center;
+	}
+	#Email{
+		margin-left: 15px;
+		width: 100%;
+
+	}
+	#nombreD{
+		padding-left: 2px ;	
+
+	}
+	#Edad{
+		margin-left: 15px;
+		width: 50% ;
+	}
+	#nombreE{
+		padding-left: 2px ;
+	}
+	#Telefono{
+		margin-left: 15px;
+		width: 75% ;
+	}
+	.inputEnv{
+		padding: 0px 43% 0px 43%;
+	}
+
+
+

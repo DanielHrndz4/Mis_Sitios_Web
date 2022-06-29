@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/mediaquerielogin.css">
+	<link rel="shortcut icon" href="../images/flutter-logo-24.png" />
+
+    <title>Login</title>
+</head>
+<body>
+    <div class="container">
+        <p class="titulo">LOGIN</p>
+        <form action="my_server" method="GET">
+            <div class="elemento">
+            <label for="usuario">USUARIO</label>
+            <input type="text" name="usuario" id="usuario" placeholder="Escriba su nombre de usuario" required autocomplete="off">
+            </div>
+            <div class="elemento">
+            <label for="password">CONTRASEÑA</label>
+            <input type="password" name="password" id="password" placeholder="Ingrese su contraseña" required>
+            </div>
+            <div class="button">
+                <input type="submit" name="botonEnviar" id="botonEnviar" value="Enviar">
+            </div>
+        </form>
+    </div>
+</body>
+</html>

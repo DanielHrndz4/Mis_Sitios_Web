@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@500&display=swap');
+html{
+    width: 100%;
+    height: 100%;
+}
+
+nav{
+	background-color: #1B1B1B;
+}
+#created{
+	font-family: 'Noto Sans Mono', monospace;
+	color: #A8A8A8;
+	cursor:auto;
+}
+#navbarNav{
+	float:right;
+	padding-right: 20px;
+}
+#linkContactame{
+	color: white;
+	font-family: 'Noto Sans Mono', monospace;
+	font-size: 1.4em;
+}
+#linkContactame:hover{
+	color: #A8A8A8;
+}
+#container{
+	padding-top:70px; 
+	padding-bottom:120px; 
+    background-image: url( "../img/mediaQueries/pexels-hitarth-jadhav-220357.jpg");
+    background-attachment: fixed;
+    background-size: cover;	
+    background-repeat: no-repeat;
+    height: 490px;
+    background-position:center;
+}
+.titulo1{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 5em;
+    font-weight: bolder;
+    text-shadow: 2px 2px 2px gray;
+    color: crimson;
+}
+.titulo2{
+    font-family: 'Noto Sans Mono', monospace;
+    font-size: 3em;
+    text-shadow: 2px 2px 2px gray;
+	color: crimson;
+}
+.fila0{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+}
+.fila0>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:10px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+}
+.fila1{
+    width: 30%;
+    display: inline-block;
+    margin: 0px 1%;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+}
+.fila1>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding:10px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+}
+.fila11{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+}
+.fila11>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+}
+.fila12{
+    width: 30%;
+    display: block;
+    margin: 20px 2.7% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+    
+}
+.fila12>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+}
+.fila13{
+    width: 30%;
+    display: inline-block;
+    margin: 20px 1% 0px;
+    text-align: center;
+    border-radius:10px;
+    box-shadow: 2px 2px 2px 2px gray;
+    color: black;
+    visibility: Hidden;
+}
+.fila13>a{
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 10px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+    visibility: hidden;
+}
+.Dfila1, .Dfila2, .Dfila3, .Dfila4, .Dfila5, .Dfila6, .Dfila7, .Dfila8, .Dfila9, .Dfila10, .Dfila11, .Dfila12, .Dfila13, .Dfila14, .Dfila15, .Dfila16, .Dfila17, .Dfila18, .Dfila19, .Dfila20, .Dfila21, .Dfila22, .Dfila23, .Dfila24, .Dfila25, .Dfila26, .Dfila27, .Dfila28, .Dfila29, .Dfila30, .Dfila31, .Dfila32, .Dfila33{
+    margin-bottom: 0;
+    width: 98%;
+    padding: 0;
+    display: block;
+    margin: 1%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:230px;
+    border-radius:10px;
+    border-bottom: 4px solid crimson;
+    color:black;
+}
+.Dfila1{
+    background-image: url(../img/youtube.png);
+}
+.Dfila2{
+    Background-image: url(../img/Sin\ título-1.png);
+}
+.Dfila3{
+    background-image: url(../img/classroom.png);
+}
+.Dfila4{
+    background-image: url(../img/gmail.png);
+}
+.Dfila5{
+    background-image: url(../img/udemy.png);
+}
+.Dfila6{
+    background-image: url(../img/git.jpg);
+}
+.Dfila7{
+    background-image: url(../img/jbasico.png);
+}
+.Dfila8{
+    background-image: url(../img/jintermedio.png);
+}
+.Dfila9{
+    background-image: url(../img/javanzado.png);
+}
+.Dfila10{
+    background-image: url(../img/C.jpg);
+}
+.Dfila11{
+    background-image: url(../img/C.jpg);
+}
+.Dfila12{
+    background-image: url(../img/C.jpg);
+}
+.Dfila13{
+    background-image: url(../img/python.png);
+}
+.Dfila14{
+    background-image: url(../img/python.png);
+}
+.Dfila15{
+    background-image: url(../img/python.png);
+}
+.Dfila16{
+    background-image: url(../img/icons.png);
+}
+.Dfila17{
+    background-image: url(../img/boxicons.png);
+}
+.Dfila18{
+    background-image: url(../img/ionicons.png);
+}
+.Dfila19{
+    background-image: url(../img/bootstrap-icons.png);
+}
+.Dfila20{
+    margin-bottom: 0;
+    width: 98%;
+    padding: 0;
+    display: block;
+    margin: 1%;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    min-height:200px;
+    border-radius:10px;
+    border-bottom: 4px solid crimson;
+    color:black;
+    background-image: url(../img/google-fonts.png);
+}
+.Dfila21{
+    background-image: url(../img/uns.png);
+}
+.Dfila22{
+    background-image: url(../img/pexels.png);
+}
+.Dfila24{
+    background-image: url(../img/flat.jpg);
+}
+.Dfila25{
+    background-image: url(../img/coolors.png);
+}
+.Dfila27{
+    background-image: url(../img/bootstrap.png)
+}
+.Dfila28{
+    background-image: url(../img/tutorial.jpg)
+}
+.Dfila29{
+    background-image: url(../img/wordpress.png)
+}
+.Dfila30{
+    background-image: url(../img/000webhost.jpg)
+}
+.Dfila31{
+    background-image: url(../img/foxit.png)
+}
+.Dfila32{
+    background-image: url( "../img/iconos-pagina-web.png")
+}
+.Dfila33{
+    background-image: url( "../img/percipio.jpg")
+}
+
+
+.tituloEdu{
+    border-bottom: 5px solid crimson;
+    width: 350px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+}
+.tituloC{
+    border-bottom: 5px solid crimson;
+    width: 450px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+}
+.tituloIconos{
+    border-bottom: 5px solid crimson;
+    width: 250px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+}
+.tituloPy{
+    border-bottom: 5px solid crimson;
+    width: 350px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+}
+.tituloFonts{
+    border-bottom: 5px solid crimson;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+}
+.tituloSkill{
+    border-bottom: 5px solid crimson;
+    width: 400px;
+    margin: auto;
+    padding-bottom: 10px;
+    padding-top: 25px;
+    border-radius:10px;
+}
+.tituloImg{
+    border-bottom: 5px solid crimson;
+    width: 200px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+}
+.tituloCol{
+    border-bottom: 5px solid crimson;
+    width: 190px;
+    margin: auto;
+    padding-bottom: 10px;
+    border-radius:10px;
+}
+
+.footer {
+    min-height: 120px;
+    background-image: url("../img/footer.png");
+    width: 100%;
+	margin: auto;
+}
+.carta {
+    height: 650px;
+    background-image: url("../img/footer.png");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.card{
+	width: 30%;
+	height: 550px;
+	margin: auto;
+}
+.foto{
+	width: 96%;
+	margin: auto;
+	height: 50%;
+	box-shadow: 2px 2px 2px 2px gray;
+	margin-top: 10px;
+	border-radius: 10px;
+	padding-bottom: 20px;
+	background-image: url("../img/avatar.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+.certificados{
+	font-family: 'Noto Sans Mono', monospace;
+}
+.certificados>h1{
+	text-shadow: 2px 2px 2px gray;
+	text-align: center;
+	font-size: 2em;
+	border-bottom: 2px solid crimson;
+	width: 70%;
+	margin: auto;
+	border-radius: 10px;
+}
+.certificados>p{
+	padding-left: 10px;
+}
+span{
+	color: crimson;
+	font-weight: bolder;
+	font-size: 1em;
+}
+.autor{
+	font-size: 1em;
+	font-weight: bolder;
+	text-align: center;
+	color: crimson;	
+}
+.redesSociales{
+	display: inline-block;	
+	margin-top: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-align: center;
+}
+.instagram, .facebook, .gh, .twitter {
+    text-decoration: none;
+    text-align: center;
+    margin: auto;
+    color: black;
+    display:block;
+    cursor: pointer;
+    padding: 0px;
+    font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px 2px gray;
+}
+.sigueme{
+	font-family: 'Noto Sans Mono', monospace;
+    font-weight: bold;
+	font-size: 2.5em;
+	padding-top: 10px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: black;
+	text-shadow: 2px 2px 2px gray;
+	border-bottom: 3px solid crimson;
+	width: 20%;
+	margin: auto;
+	border-radius: 10px
+}
